@@ -46,7 +46,7 @@ btnBack.setAttribute('id', 'backBtn');
 
 
 document.getElementById("backBtn").onclick = function () {
-    location.href = "magsOptions.html";
+    location.href = "../page5/magsOptions.html";
 };
 
 

@@ -72,14 +72,29 @@ bold.append(subQuestion);
 subQuestion.append('Basandote en la pista anterior, ¿Qué fecha es?');
 btnDate1.setAttribute('id', 'date1Btn');
 btnDate2.setAttribute('id', 'date2Btn');
+btnDate3.setAttribute('id', 'date3Btn');
+btnDate4.setAttribute('id', 'date4Btn');
+btnDate5.setAttribute('id', 'date5Btn');
 
 
 document.getElementById("date1Btn").onclick = function () {
-    location.href = "nope2.html";
+    location.href = "../page8/nope2.html";
 };
 
 document.getElementById("date2Btn").onclick = function () {
-    location.href = "selectTime.html";
+    location.href = "../page10/selectTime.html";
+};
+
+document.getElementById("date3Btn").onclick = function () {
+    location.href = "../page8/nope2.html";
+};
+
+document.getElementById("date4Btn").onclick = function () {
+    location.href = "../page8/nope2.html";
+};
+
+document.getElementById("date5Btn").onclick = function () {
+    location.href = "../page8/nope2.html";
 };
 
 

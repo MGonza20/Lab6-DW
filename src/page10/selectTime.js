@@ -60,7 +60,7 @@ textDiv.append(text);
 text.append('Debes buscar estos libros y ver si en cuentras alguna pista en alguno de ellos.');
 
 anchBooks.append('Ver libros');
-anchBooks.setAttribute('href', 'seeBooks.html');
+anchBooks.setAttribute('href', '../page9/seeBooks.html');
 text.append(anchBooks);
 
 
@@ -84,15 +84,15 @@ btnTime3.setAttribute('id', 'time3Btn');
 
 
 document.getElementById("time1Btn").onclick = function () {
-    location.href = "nope2.html";
+    location.href = "../page8/nope2.html";
 };
 
 document.getElementById("time2Btn").onclick = function () {
-    location.href = "done.html";
+    location.href = "../page11/done.html";
 };
 
 document.getElementById("time3Btn").onclick = function () {
-    location.href = "nope2.html";
+    location.href = "../page8/nope2.html";
 };
 
 divQ.setAttribute('id', 'divQ');

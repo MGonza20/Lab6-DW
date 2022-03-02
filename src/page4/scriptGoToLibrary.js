@@ -98,7 +98,7 @@ btnNext.setAttribute('id', 'nextBtn');
 
 
 document.getElementById("nextBtn").onclick = function () {
-    location.href = "magsOptions.html";
+    location.href = "../page5/magsOptions.html";
 };
 
 divQ.setAttribute('id', 'divQ');
